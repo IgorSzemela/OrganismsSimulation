@@ -1,0 +1,57 @@
+C:.
+│   setup.py.txt
+│
+└───organisms_simulation
+    │   organisms_simulation.pyproj
+    │   organisms_simulation.pyproj.user
+    │   organisms_simulation.sln
+    │   requirements.txt
+    │   __main__.py
+    │
+    ├───animals
+    │   │   antelope.py
+    │   │   cyber_sheep.py
+    │   │   fox.py
+    │   │   human.py
+    │   │   sheep.py
+    │   │   turtle.py
+    │   │   wolf.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__
+    │          
+    ├───grid
+    │   │   click_menu.py
+    │   │   commentator.py
+    │   │   grid_cell.py
+    │   │   grid_is_full_exception.py
+    │   │   position.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__
+    │         
+    ├───plants
+    │   │   belladonna.py
+    │   │   grass.py
+    │   │   guarana.py
+    │   │   sosnowsky_hogweed.py
+    │   │   sow_thistle.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__
+    │           
+    ├───prev_instances
+    │       saved_instance
+    │       saved_instance.txt
+    │       saved_instance.tzt
+    │
+    ├───world
+    │   │   animal.py
+    │   │   organism.py
+    │   │   plant.py
+    │   │   world.py
+    │   │   __init__.py
+    │   │
+    │   └───__pycache__           
+    │
+    └───__pycache__

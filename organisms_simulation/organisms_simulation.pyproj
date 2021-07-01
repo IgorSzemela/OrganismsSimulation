@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f9d5198e-604f-40a7-b428-f39e0689e84c}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>__main__.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <Name>organisms_simulation</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="animals\antelope.py" />
+    <Compile Include="animals\cyber_sheep.py" />
+    <Compile Include="animals\fox.py" />
+    <Compile Include="animals\human.py" />
+    <Compile Include="animals\sheep.py" />
+    <Compile Include="animals\turtle.py" />
+    <Compile Include="animals\wolf.py" />
+    <Compile Include="animals\__init__.py" />
+    <Compile Include="__main__.py" />
+    <Compile Include="grid\click_menu.py" />
+    <Compile Include="grid\commentator.py" />
+    <Compile Include="grid\grid_cell.py" />
+    <Compile Include="grid\grid_is_full_exception.py" />
+    <Compile Include="grid\position.py" />
+    <Compile Include="grid\__init__.py" />
+    <Compile Include="plants\belladonna.py" />
+    <Compile Include="plants\grass.py" />
+    <Compile Include="plants\guarana.py" />
+    <Compile Include="plants\sosnowsky_hogweed.py" />
+    <Compile Include="plants\sow_thistle.py" />
+    <Compile Include="plants\__init__.py" />
+    <Compile Include="world\animal.py" />
+    <Compile Include="world\organism.py" />
+    <Compile Include="world\plant.py" />
+    <Compile Include="world\world.py" />
+    <Compile Include="world\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="animals\" />
+    <Folder Include="animals\__pycache__\" />
+    <Folder Include="grid\" />
+    <Folder Include="plants\" />
+    <Folder Include="prev_instances\" />
+    <Folder Include="world\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="animals\__pycache__\antelope.cpython-37.pyc" />
+    <Content Include="animals\__pycache__\human.cpython-37.pyc" />
+    <Content Include="animals\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="prev_instances\saved_instance" />
+    <Content Include="prev_instances\saved_instance.txt" />
+    <Content Include="prev_instances\saved_instance.tzt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
