@@ -1,6 +1,6 @@
 # OrganismsSimulation
 App which simulates existence of animals and plants on the grid created with Python using PyQt5 package.\
-https://youtu.be/0OELylNfb1g
+[Youtube video](https://youtu.be/0OELylNfb1g) which presents the entire game.
 
 ```bash
 OrganismsSimulation
