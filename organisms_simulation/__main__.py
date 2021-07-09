@@ -46,7 +46,7 @@ class Grid(QWidget):
         recursiveSetChildFocusPolicy(self)
 
     def initUI(self):
-        self.setWindowTitle('Igor Szemela 184659')
+        self.setWindowTitle('Igor Szemela')
         self.setGeometry(400, 150, 1200, 900)
         self.setStyleSheet("border:1px solid #4e4e4e; background-color:#D28271")
         self.menu_info.move(60, 20)
