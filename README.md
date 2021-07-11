@@ -8,6 +8,13 @@ Project is created with:
 * Python 3.7 
 * PyQt5 5.15.4
 
+## Setup
+To run this project you will have to have Pyqt5 installed. You can install it by executing these commands:
+```
+$ pip install pyqt5
+$ pip install pyqt5-tools
+```
+
 ## File Structure
 ```bash
 OrganismsSimulation
